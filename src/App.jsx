@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import ContactForm from "./component/ContactForm/ContactForm";
-import SearchBox from "./component/SearchBox/SearchBox";
-import ContactList from "./component/ContactList/ContactList";
+import ContactForm from "./components/ContactForm/ContactForm";
+import SearchBox from "./components/SearchBox/SearchBox";
+import ContactList from "./components/ContactList/ContactList";
 import { nanoid } from "nanoid";
 const contactsData = [
   { id: "id-1", name: "Rosie Simpson", number: "459-12-56" },
