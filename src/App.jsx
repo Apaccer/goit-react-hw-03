@@ -16,7 +16,7 @@ const contactsData = [
 function App() {
   const [contacts, setContacts] = useState(() => {
     const strContacts = localStorage.getItem("contacts");
-    if (!strContacts) returncontactsData;
+    if (!strContacts) return contactsData;
     const parsContacts = JSON.parse(strContacts);
     return parsContacts;
   });
